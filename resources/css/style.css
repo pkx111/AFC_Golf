@@ -38,9 +38,25 @@ header{
 }
 .mainCont{
   background-image: url("../media/bg1pinh.jpg");
-/*  height: 25rem;*/
+  height: 30rem;
   background-size: cover;
   background-position: center;
   justify-content: center;
+}
 
+/* Nav Bar */
+.menu{
+  display: flex;
+  background-color: firebrick;
+}
+.menu nav{
+  margin: 0.75rem auto;
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  justify-content: space-between;
+}
+.menu span{
+  color: white;
+  font-size: 1rem;
 }
