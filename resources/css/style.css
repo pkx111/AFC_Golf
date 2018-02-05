@@ -4,7 +4,7 @@ html{
 body{
   font-family: Helvetica;
 }
-
+/*Header styles*/
 header{
   display: flex;
   justify-content: center;
@@ -27,4 +27,20 @@ header{
 }
 .logo span{
   margin: 0.66rem 0;
+}
+
+/* Main Content */
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.32rem;
+
+}
+.mainCont{
+  background-image: url("../media/bg1pinh.jpg");
+/*  height: 25rem;*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+
 }
