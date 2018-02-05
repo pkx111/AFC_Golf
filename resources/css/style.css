@@ -1,0 +1,25 @@
+header{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+  width: 960px;
+
+}
+.logo img{
+  height: 1.5rem;
+  margin: auto 1rem auto .5rem;
+
+}
+.logo span{
+  margin: 0.66rem 0;
+
+}
