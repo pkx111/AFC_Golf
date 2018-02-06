@@ -8,13 +8,13 @@ a{
   color: gray;
 }
 
-/* div{border: 1px solid blue;} */
+ div{border: 1px solid blue;}
 
 /*Header styles*/
 header{
   display: flex;
   justify-content: center;
-/*  background-color: darkblue; */
+  background-color: darkblue;
   color: white;
   z-index: 1;
   position: fixed;
@@ -74,7 +74,7 @@ header{
   background-color: #FF2400;
 }
 .menu nav{
-  margin: 0.75rem auto;
+  margin: 0.5rem auto;
   display: flex;
   flex-direction: row;
   width: 960px;
@@ -88,23 +88,22 @@ header{
 }
 
 /* Signup Stuff*/
-.oneColFixCtr .container1{
-	width: 960px;
-  background-color:#C5EEC4;
-	margin: 0 auto;
-	border: 1px solid #000000;
-	text-align: center;
-  padding-top: 2.32rem;
+.signCont{
+  background-image: url("../media/bg1pinh.jpg");
+  height: 55rem;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
 }
-.oneColFixCtr #mainContent{
-	padding: 0px 15px;
+.signHold{
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
-.oneColFixCtr #botomContent{
-	padding: 0 0px;
-}
-.oneColFixCtr #topContent{
-	padding:  0px 25px	;
-	height: 200px;
+.signHold h1{
+  font-size: 3rem;
+  font-weight: bold;
+
 }
 .butts{
 		border:thin solid #03F;
@@ -112,7 +111,7 @@ header{
 		size:auto;
 }
 fieldset{
-	width: 500px;
+	width: 700px;
 }
 
 fieldset p{
@@ -125,14 +124,14 @@ legend{
 
 label.field{
 	text-align: left;
-	width: 125px;
+	width: 13rem;
 	float: left;
 	font-weight: bold;
 }
 
 input.textbox-300{
 	width: 300px;
-	float: left;
+/*	float: left; */
 	border: thin solid #888888;
 }
 
