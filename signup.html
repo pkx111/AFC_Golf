@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Signup Form</title>
+    <link href="./resources/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./resources/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body class="oneColFixCtr">
+    <header>
+      <div class="logo">
+        <img src="./resources/media/afclogo_trns_175.gif" alt="logo-afc" />
+        <span>2018 Robert A. Sik Memorial</span>
+        <img src="./resources/media/aelogo_trns_175.gif" alt="logo-ae" />
+      </div>
+    </header>
+
+    <div id="container">
+	     <div id="topContent">
+         <p><img src="images/afclogo_trns_175.gif" width="175" height="180" align="left"/><img src="images/aelogo_trns_175.gif" width="175" height="177" align="right"/></p>
+       </div>
+       <div id="mainContent" align="center">
+         <h1>2018 AFC AE Golf Outing<br />Signup & Contact Form</h1>
+         <form action="send_mail.php" method="post">
+           <fieldset>
+             <p><label class="field" for"Name">Full Name:**</label><input type="text" name="f_name" class="textbox-300" /></p>
+             <p><label class="field" for"Title">Title:</label><input type="text" name="title" class="textbox-300" /></p>
+             <p><label class="field" for"Organization">Organization:</label><input type="text" name="ozation" class="textbox-300" /></p>
+             <p><label class="field" for"Street Address">Street Address:</label><input type="text" name="st_add01" class="textbox-300" /></p>
+             <p><label class="field" for"Address Line 2">Address Line 2:</label><input type="text" name="st_add02" class="textbox-300" /></p>
+             <p><label class="field" for"City">City:</label><input type="text" name="city" class="textbox-300" /></p>
+             <p><label class="field" for"State/Province">State/Province:</label><input type="text" name="st_pr" class="textbox-300" /></p>
+             <p><label class="field" for"Zip/Postal Code">Zip/Postal Code:</label><input type="text" me="zip" class="textbox-300" /></p>
+             <p><label class="field" for"Country">Country:</label><input type="text" name="country" class="textbox-300" /></p>
+             <p><label class="field" for"Work Phone">Work Phone:**</label><input type="text" name="w_phone" class="textbox-300" /></p>
+             <p><label class="field" for"Fax">Fax:</label><input type="text" name="w_fax" class="textbox-300" /></p>
+             <p><label class="field" for"Email">Email:**</label><input type="text" name="email_address" class="textbox-300" /></p>
+             <p><label class="field" for"URL">URL:</label><input type="text" name="w_url" class="textbox-300" /></p><br>
+
+             <p><label class="field" for="HoleSponsor">Would you like to sponsor a hole?</label>
+             <input type="hidden" name="h_spon" value="*NO*" />
+             <input type="checkbox" name="h_spon" value="Yes, Hole Sponsor"> Yes! I want to sponsor a hole!</p>
+             <p><label class="field" for"Golfer1">Golfer 1:</label><input type="text" name="gfr_1" class="textbox-300" /></p>
+             <p><label class="field" for"Golfer2">Golfer 2:</label><input type="text" name="gfr_2" class="textbox-300" /></p>
+             <p><label class="field" for"Gofler3">Golfer 3:</label><input type="text" name="gfr_3" class="textbox-300" /></p>
+             <p><label class="field" for"Golfer4">Golfer 4:</label><input type="text" name="gfr_4" class="textbox-300" /></p>
+             <p><b><i>**Required Information Thank You</i></b></p>
+
+             <P><label class="field">Comments:</label></P>
+             <p><textarea name='comments' id='comments' cols="50" rows="10"></textarea><br />
+               <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' /></p>
+            </fieldset>
+            <p><br />
+             <input type="submit" value="Submit" class="butts" /n />
+             <input type="reset" value="Reset Form" class="butts" /n />
+             <input type="button" value="Home" class="butts" onClick="window.location.href='../'" /></p>
+          </form>
+        </body>
+        </html>

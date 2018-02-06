@@ -8,7 +8,6 @@ a{
   color: gray;
 }
 
-
 /* div{border: 1px solid blue;} */
 
 /*Header styles*/
@@ -86,6 +85,25 @@ header{
   font-size: 1.15rem;
   font-weight: bold;
   text-shadow: 1px 2px black;
+}
+
+/* Signup Stuff*/
+.oneColFixCtr #container{
+	width: 650px;
+	background-color:#C5EEC4;
+	margin: 0 auto;
+	border: 1px solid #000000;
+	text-align: center;
+}
+.oneColFixCtr #mainContent{
+	padding: 0px 15px;
+}
+.oneColFixCtr #botomContent{
+	padding: 0 0px;
+}
+.oneColFixCtr #topContent{
+	padding:  0px 25px	;
+	height: 200px;
 }
 
 @media only screen and (max-width: 1024px){
