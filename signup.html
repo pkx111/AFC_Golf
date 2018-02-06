@@ -18,7 +18,8 @@
     <div class="container">
       <div class="signCont">
         <div class="signHold">
-          <h1>2018 AFC AE Golf Outing<br />Signup & Contact Form</h1>
+          <span><h1>2018 AFC AE Golf Outing</h1></span>
+          <span><h1>Signup & Contact Form</h1></span><br>
           <form action="./resources/script/send_mail.php" method="post">
             <fieldset>
               <p><label class="field" for"Name">Full Name:**</label><input type="text" name="f_name" class="textbox-300" /></p>
@@ -34,8 +35,7 @@
               <p><label class="field" for"Fax">Fax:</label><input type="text" name="w_fax" class="textbox-300" /></p>
               <p><label class="field" for"Email">Email:**</label><input type="text" name="email_address" class="textbox-300" /></p>
               <p><label class="field" for"URL">URL:</label><input type="text" name="w_url" class="textbox-300" /></p><br>
-              <p><label class="field" for="HoleSponsor">Would you like to sponsor a hole?</label><input type="hidden" name="h_spon" value="*NO*" /><input type="checkbox" name="h_spon" value="Yes, Hole Sponsor" /> Yes! I want to sponsor a hole!</p>
-              <p></p>
+              <p><label class="field" for="HoleSponsor">Would you like to sponsor a hole?</label><input type="hidden" name="h_spon" value="*NO*" /><input type="checkbox" name="h_spon" value="Yes, Hole Sponsor" /> Yes! I want to sponsor a hole!</p><br>
               <p><label class="field" for"Golfer1">Golfer 1:</label><input type="text" name="gfr_1" class="textbox-300" /></p>
               <p><label class="field" for"Golfer2">Golfer 2:</label><input type="text" name="gfr_2" class="textbox-300" /></p>
               <p><label class="field" for"Gofler3">Golfer 3:</label><input type="text" name="gfr_3" class="textbox-300" /></p>
@@ -44,10 +44,11 @@
               <p><label class="field">Comments:</label></p>
               <p><textarea name='comments' id='comments' cols="50" rows="10"></textarea><br /><input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' /></p>
             </fieldset>
-            <p><br />
+            <div class="buttons">
               <input type="submit" value="Submit" class="butts" /n />
               <input type="reset" value="Reset Form" class="butts" /n />
-              <input type="button" value="Home" class="butts" onClick="window.location.href='./index.html'" /></p>
+              <input type="button" value="Home" class="butts" onClick="window.location.href='./index.html'" />
+            </div>
           </form>
         </div>
       </div>
