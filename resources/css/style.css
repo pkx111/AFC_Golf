@@ -14,7 +14,7 @@ a{
 header{
   display: flex;
   justify-content: center;
-  background-color: darkblue;
+/*  background-color: darkblue; */
   color: white;
   z-index: 1;
   position: fixed;
@@ -88,12 +88,13 @@ header{
 }
 
 /* Signup Stuff*/
-.oneColFixCtr #container{
-	width: 650px;
-	background-color:#C5EEC4;
+.oneColFixCtr .container1{
+	width: 960px;
+  background-color:#C5EEC4;
 	margin: 0 auto;
 	border: 1px solid #000000;
 	text-align: center;
+  padding-top: 2.32rem;
 }
 .oneColFixCtr #mainContent{
 	padding: 0px 15px;
@@ -104,6 +105,55 @@ header{
 .oneColFixCtr #topContent{
 	padding:  0px 25px	;
 	height: 200px;
+}
+.butts{
+		border:thin solid #03F;
+		padding:5px;
+		size:auto;
+}
+fieldset{
+	width: 500px;
+}
+
+fieldset p{
+	padding: 5px;
+}
+
+legend{
+	font-size: 20px;
+}
+
+label.field{
+	text-align: left;
+	width: 125px;
+	float: left;
+	font-weight: bold;
+}
+
+input.textbox-300{
+	width: 300px;
+	float: left;
+	border: thin solid #888888;
+}
+
+input.textbox-300d{
+	width: 400px;
+	float: left;
+	border: thin solid #888888;
+	margin-left: 15px;
+}
+
+input.textbox-25{
+	width: 25px;
+	float: left;
+	border: thin solid #888888;
+}
+
+input.comments{
+	width: 450px;
+	height: 150px;
+	float: left;
+	border: thin solid #888888;
 }
 
 @media only screen and (max-width: 1024px){

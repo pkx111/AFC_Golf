@@ -7,7 +7,7 @@
     <link href="./resources/css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class="oneColFixCtr">
+  <body>
     <header>
       <div class="logo">
         <img src="./resources/media/afclogo_trns_175.gif" alt="logo-afc" />
@@ -16,13 +16,15 @@
       </div>
     </header>
 
-    <div id="container">
-	     <div id="topContent">
+    <div class="oneColFixCtr">
+        <div class="container1">
+<!--     <div id="topContent">
          <p><img src="images/afclogo_trns_175.gif" width="175" height="180" align="left"/><img src="images/aelogo_trns_175.gif" width="175" height="177" align="right"/></p>
        </div>
+-->
        <div id="mainContent" align="center">
          <h1>2018 AFC AE Golf Outing<br />Signup & Contact Form</h1>
-         <form action="send_mail.php" method="post">
+         <form action="./resources/script/send_mail.php" method="post">
            <fieldset>
              <p><label class="field" for"Name">Full Name:**</label><input type="text" name="f_name" class="textbox-300" /></p>
              <p><label class="field" for"Title">Title:</label><input type="text" name="title" class="textbox-300" /></p>
@@ -54,7 +56,7 @@
             <p><br />
              <input type="submit" value="Submit" class="butts" /n />
              <input type="reset" value="Reset Form" class="butts" /n />
-             <input type="button" value="Home" class="butts" onClick="window.location.href='../'" /></p>
+             <input type="button" value="Home" class="butts" onClick="window.location.href='./index.html'" /></p>
           </form>
         </body>
         </html>
