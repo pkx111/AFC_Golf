@@ -4,6 +4,10 @@ html{
 body{
   font-family: Helvetica;
 }
+a{
+  color: gray;
+}
+
 
 /* div{border: 1px solid blue;} */
 
