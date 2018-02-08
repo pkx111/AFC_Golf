@@ -8,7 +8,7 @@ a{
   color: gray;
 }
 
- /*div{border: 1px solid blue;}*/
+/* div{border: 1px solid blue;} */
 
 /*Header styles*/
 header{
@@ -68,6 +68,17 @@ header{
   font-weight: 900;
 }
 
+/* Information Section */
+
+.infoCont{
+  display: flex;
+  flex-direction: column;
+}
+.infoHold{
+  width: 960px;
+  margin: 0 auto;
+}
+
 /* Nav Bar */
 .menu{
   display: flex;
@@ -85,6 +96,31 @@ header{
   font-size: 1.15rem;
   font-weight: bold;
   text-shadow: 1px 2px black;
+}
+
+/* Schedule Stuff */
+#gsched{
+  width: 100%;
+  border-collapse: collapse;
+}
+#gsched th{
+  padding: 10px;
+}
+#gsched td{
+  border: 1px solid black;
+  padding: 5px;
+}
+#gsched tr:nth-child(even){
+  background-color: lightgray;
+}
+#gsched th{
+  padding: auto auto;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+}
+#gsched tr:hover{
+  background-color: gray;
 }
 
 /* Signup Stuff*/
