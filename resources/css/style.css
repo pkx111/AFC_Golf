@@ -53,9 +53,7 @@ header{
   padding-top: 19rem;
 }
 .infoFloat{
-/*  background-color: white; */
   color: black;
-/*  width: 40rem; */
   padding: 1rem 1rem;
 }
 .infoFloat h1{
@@ -73,10 +71,19 @@ header{
 .infoCont{
   display: flex;
   flex-direction: column;
+  padding-top: 1rem;
 }
 .infoHold{
   width: 960px;
   margin: 0 auto;
+}
+.infoHold div{
+  padding-top: 1rem;
+}
+.infoHold h2{
+  font-weight: bold;
+  font-size: 20px;
+
 }
 
 /* Nav Bar */
@@ -105,6 +112,7 @@ header{
 }
 #gsched th{
   padding: 10px;
+  border: 1px solid black;
 }
 #gsched td{
   border: 1px solid black;
