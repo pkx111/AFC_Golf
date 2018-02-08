@@ -50,7 +50,7 @@ header{
 .maincHold{
   width: 960px;
   margin: 0 auto;
-  padding-top: 19rem;
+  padding-top: 18.5rem;
 }
 .infoFloat{
   color: black;
@@ -63,6 +63,10 @@ header{
 }
 .infoFloat h2{
   font-size: 2.5rem;
+  font-weight: 900;
+}
+.infoFloat h3{
+  font-size: 2rem;
   font-weight: 900;
 }
 
