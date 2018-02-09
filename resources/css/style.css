@@ -84,6 +84,22 @@ header{
 }
 .infoHold h2{
   font-weight: bold;
+  font-size: 24px;
+}
+.inhold{
+  display: flex;
+  flex-direction: column;
+}
+#intro{
+  width: 75%;
+  margin: 0 auto;
+}
+#intro h4{
+  text-indent: 1.5rem;
+  padding-top: 1rem;
+}
+#intro h3 h4{
+  font-weight: normal;
   font-size: 22px;
 }
 
