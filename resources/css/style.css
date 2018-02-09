@@ -215,6 +215,16 @@ input.comments{
 	border: thin solid #888888;
 }
 
+/* Google Map Section */
+#location h3{
+  text-align: center;
+}
+.map{
+    
+
+}
+
+/* Screen size Section */
 @media only screen and (max-width: 1024px){
   .item{width: 47%;}
 
