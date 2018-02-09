@@ -7,7 +7,6 @@ body{
 a{
   color: gray;
 }
-
 /* div{border: 1px solid blue;} */
 
 /*Header styles*/
@@ -71,7 +70,6 @@ header{
 }
 
 /* Information Section */
-
 .infoCont{
   display: flex;
   flex-direction: column;
@@ -86,8 +84,7 @@ header{
 }
 .infoHold h2{
   font-weight: bold;
-  font-size: 20px;
-
+  font-size: 22px;
 }
 
 /* Nav Bar */
@@ -152,7 +149,6 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 .signHold h1{
   font-size: 3rem;
@@ -172,15 +168,12 @@ header{
 fieldset{
 	width: 700px;
 }
-
 fieldset p{
 	padding: 5px;
 }
-
 legend{
 	font-size: 20px;
 }
-
 label.field{
 	text-align: left;
 	width: 13rem;
@@ -188,45 +181,72 @@ label.field{
 	font-weight: bold;
   text-shadow: 1px 1px white;
 }
-
 input.textbox-300{
 	width: 300px;
-/*	float: left; */
 	border: thin solid #888888;
 }
-
 input.textbox-300d{
 	width: 400px;
 	float: left;
 	border: thin solid #888888;
 	margin-left: 15px;
 }
-
 input.textbox-25{
 	width: 25px;
 	float: left;
 	border: thin solid #888888;
 }
-
-input.comments{
-	width: 450px;
-	height: 150px;
-	float: left;
-	border: thin solid #888888;
-}
+/*
+#comments{
+ background-image: url("../media/pebbleblack_trns_red.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
 
 /* Google Map Section */
-#location h3{
-  text-align: center;
+#lochold{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
 }
-.map{
-    
+#lochold div{
+  display: flex;
+  flex-direction: column;
+}
+#lochold .mfadd{
+  margin: 3rem 5rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+#lochold .map{
+  margin: auto auto;
+  padding: 0;
+}
 
+/* Contact Section */
+#contact .mfadd{
+  margin: 1rem 1rem;
+}
+
+/* Footer Section */
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  height: 5rem;
+  width: 960px;
+}
+footer img{
+  height: 5rem;
+  width: 5rem;
+}
+footer p{
+  margin: auto .5rem;
 }
 
 /* Screen size Section */
 @media only screen and (max-width: 1024px){
   .item{width: 47%;}
-
 
 }
