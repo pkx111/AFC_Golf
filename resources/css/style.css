@@ -73,11 +73,11 @@ header{
 .infoCont{
   display: flex;
   flex-direction: column;
-  padding-top: 1rem;
+  z-index: -1;
 }
 .infoHold{
   width: 960px;
-  margin: 0 auto;
+  margin: -2rem auto;
 }
 .infoHold div{
   padding-top: 1rem;
@@ -90,15 +90,20 @@ header{
   display: flex;
   flex-direction: column;
 }
-#intro{
+.infoHold h2::before {
+  display: block;
+  content: " ";
+  margin: 2rem 0 0 0;
+}
+.intros{
   width: 75%;
   margin: 0 auto;
 }
-#intro h4{
+.intros h4{
   text-indent: 1.5rem;
   padding-top: 1rem;
 }
-#intro h3 h4{
+.intros h3 h4{
   font-weight: normal;
   font-size: 22px;
 }
@@ -107,6 +112,7 @@ header{
 .menu{
   display: flex;
   background-color: #FF2400;
+  z-index: 0;
 }
 .menu nav{
   margin: 0.5rem auto;
@@ -128,8 +134,11 @@ header{
   border-collapse: collapse;
 }
 #gsched th{
-  padding: 10px;
+  padding-bottom: 25px;
   border: 1px solid black;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
 }
 #gsched td{
   border: 1px solid black;
@@ -137,12 +146,6 @@ header{
 }
 #gsched tr:nth-child(even){
   background-color: lightgray;
-}
-#gsched th{
-  padding: auto auto;
-  text-align: center;
-  background-color: darkblue;
-  color: white;
 }
 #gsched tr:hover{
   background-color: gray;
@@ -238,18 +241,21 @@ input.textbox-25{
   margin: auto auto;
   padding: 0;
 }
-
 /* Contact Section */
+#contact{
+  padding-bottom: 1.25rem;
+}
 #contact .mfadd{
   margin: 1rem 1rem;
 }
+
 
 /* Footer Section */
 footer{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: auto;
+  margin: 2px auto;
   height: 5rem;
   width: 960px;
 }
