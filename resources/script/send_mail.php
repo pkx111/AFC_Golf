@@ -48,7 +48,7 @@ $comments = $_REQUEST['comments'];
 
 // Message compilation area including word wrap for more then 70 chrs even though who cares lol
 $message = "$f_name\r\n$title\r\n$ozation\r\n$st_add01\r\n$st_add02\r\n$city, $st_pr $zip\r\n$country\r\n$w_phone\r\n$w_fax fax\r\n$email_address\r\n$w_url\r\n\r\n Hole Sponsor: $h_spon \r\n Golfers:\r\n 1: $gfr_1 \r\n 2: $gfr_2 \r\n 3: $gfr_3 \r\n 4: $gfr_4 \r\n\r\n$comments";
-$remessage = "Thank you for your interest in the 2018 Akron Foundry, Akron Electric Robert A. Sik Memorial Golf Outing. Either Mike or Chris will be in contact with you shortly! \r\n\r\nYour Email included the following: \r\n\r\n$message";
+$remessage = "Thank you for your interest in the 2018 Akron Foundry, Akron Electric Robert A. Sik Memorial Golf Outing. Either Mike or Chris will be in contact with you shortly! \r\n\r\nAs a reminder, all monies are due before June 15, 2018. \r\n\r\nYour Email included the following: \r\n\r\n$message";
 
 $message = wordwrap($message, 70, "\r\n");
 $remessage = wordwrap($remessage, 70, "\r\n");
