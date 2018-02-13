@@ -248,6 +248,19 @@ input.textbox-25{
   padding: 0;
 }
 
+/* Cost Section */
+#cost table{
+  margin: 30px auto;
+  font-size: 20px;
+}
+#costx{
+  width: 90%;
+  border-collapse: collapse;
+}
+#costx td{
+  padding: 10px 10px 0 0;
+}
+
 /* Contact Section */
 #contact{
   padding-bottom: 1.25rem;
@@ -255,7 +268,10 @@ input.textbox-25{
 #contact .mfadd{
   margin: 1rem 1rem;
 }
-
+#cost h3{
+  padding-left: 25px;
+  font-size: 20px;
+}
 
 /* Footer Section */
 footer{
