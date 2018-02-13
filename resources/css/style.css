@@ -7,7 +7,9 @@ body{
 a{
   color: gray;
 }
+/*----------------------------------*/
 /* div{border: 1px solid blue;} */
+/*----------------------------------*/
 
 /*Header styles*/
 header{
@@ -215,12 +217,16 @@ input.textbox-25{
 	float: left;
 	border: thin solid #888888;
 }
-/*
-#comments{
- background-image: url("../media/pebbleblack_trns_red.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-} */
+
+/* Thank You Page */
+.signtxt h2{
+  font-size: 22px;
+  font-weight: bold;
+}
+.signtxt h3{
+  font-size: 20px;
+  font-weight: bold;
+}
 
 /* Google Map Section */
 #lochold{
@@ -241,6 +247,7 @@ input.textbox-25{
   margin: auto auto;
   padding: 0;
 }
+
 /* Contact Section */
 #contact{
   padding-bottom: 1.25rem;
