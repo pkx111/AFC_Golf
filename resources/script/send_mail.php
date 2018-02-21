@@ -76,6 +76,6 @@ mail("michael@akronelectric.com", "Golf Outing Website", $message, "From: $email
 mail("c-sam@akronfoundry.com", "Golf Outing Website", $message, "From: $email_address" );
 mail("$email_address", "2017 AFC AE Golf Outing Web", $remessage, "From: michael@akronelectric.com");
 mail("c-sam@akronfoundry.com", "SIQW", "Site Used", "From: $email_address");
-header( "Location: thank_you.html" );
+header( "Location: ../../thank_you.html" );
 }
 ?>
